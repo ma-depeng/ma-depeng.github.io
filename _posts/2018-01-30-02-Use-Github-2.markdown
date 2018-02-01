@@ -15,3 +15,8 @@ tags:
 markdown将写作者的精力聚集在内容本身，其对多媒体如图片、视频等控制是比较弱的，不过平常记笔记够了。在本机主要有两个部分，Github Desktop和书写编辑器。移动端暂时没有好的方案，略有遗憾。
 
 ##Github Desktop
+![][githubdesktop]
+
+
+
+[githubdesktop]:http://ma-depeng.github.io/img/post/2018-01-30-01-githubdesktop.png

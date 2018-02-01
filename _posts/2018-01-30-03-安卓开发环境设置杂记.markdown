@@ -44,7 +44,7 @@ Help -> Endi Custom VM Options
 "Running an X86 based Android virtual device (AVD) is 10x faster, we strongly recommend creating a new AVD"  
 导致这个问题的原因为在创建模拟器时选择了ARM的image, 注意，这个时候如果要忽略这个提示，不要点OK，直接关闭窗口。  
 如果需要更改IMAGE类型，在  Tool -> Android -> AVD Manager中更改。  
-
+  
 
 [android-setting-01]:http://ma-depeng.github.io/img/post/2018-01-30-02-android-studio-setting-01.png
 [android-setting-02]:http://ma-depeng.github.io/img/post/2018-01-30-02-android-studio-setting-02.png

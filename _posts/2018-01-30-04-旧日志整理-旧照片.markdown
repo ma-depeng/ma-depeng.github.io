@@ -1,0 +1,83 @@
+---
+layout:     post
+title:      "旧日志整理，旧照片"
+subtitle:   " \"很久以前的照片\""
+date:       2018-01-30 21:00:00
+author:     "德鹏"
+header-img: "img/bg/post-bg-oldmemory.png"
+catalog: true
+tags:
+    - 回忆
+---
+
+> “以前的回忆 ”
+
+老的日志和照片不准备仔细整理了，放几张上来做回忆吧，没有按时间顺序，零散的放上来。
+
+**30年前的全家福，那时长辈都还很年轻**
+![][old-photo-1]  
+
+
+ **2010年在土耳其的某个古迹前**  
+![][old-photo-2]  
+
+
+**2007年在黄山**  
+![][old-photo-3]  
+
+
+**2009年在北京**  
+![][old-photo-4]  
+
+
+**2007年在宝鸡**  
+![][old-photo-5]  
+
+
+**2009年在成都**  
+![][old-photo-6]  
+
+
+**2008年在宝鸡，当时是国庆，骑自行车骑了750公里，路途中的一张照片**  
+![][old-photo-7]  
+
+
+**2009年在宝鸡，与高峰师傅**  
+![][old-photo-9]  
+
+
+**2010年在深圳，入职时当时是班长，早上带队出操**  
+![][old-photo-10]  
+
+
+**2011年回老家，长辈们合影**  
+![][old-photo-11]  
+
+
+**2011年与当时的女朋友，现在的老婆**  
+![][old-photo-12]  
+
+
+**2014年孩子出生，与岳父母**  
+![][old-photo-13]  
+
+
+**2015年在哥伦比亚，卡丁车赛场**  
+![][old-photo-14]  
+
+
+
+[old-photo-1]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo01.jpg
+[old-photo-2]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo02.jpg
+[old-photo-3]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo03.jpg
+[old-photo-4]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo04.jpg
+[old-photo-5]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo05.jpg
+[old-photo-6]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo06.jpg
+[old-photo-7]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo07.jpg
+[old-photo-8]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo08.jpg
+[old-photo-9]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo09.jpg
+[old-photo-10]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo10.jpg
+[old-photo-11]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo11.jpg
+[old-photo-12]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo12.jpg
+[old-photo-13]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo13.jpg
+[old-photo-14]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo14.jpg

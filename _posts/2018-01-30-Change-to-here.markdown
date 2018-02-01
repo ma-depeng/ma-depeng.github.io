@@ -4,7 +4,7 @@ title:      "POST 样例"
 subtitle:   " \"markdown 语言模板\""
 date:       2018-01-30 21:00:00
 author:     "德鹏"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg.png"
 catalog: true
 tags:
     - 其它杂记
@@ -32,3 +32,4 @@ tags:
 4. 使用连续的双星号进行文字加粗，样例（使用X替代星号），XX这里是加粗文字XX
 5. 使用上斜点用来标红，样例`这里是标红文字`
 6. 可以在文中直接使用HTML
+7. 右尖括号，表示斜体

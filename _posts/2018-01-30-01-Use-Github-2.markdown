@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "如何使用github pages，2"
+subtitle:   " \"在Github上设立自己的博客\""
+date:       2018-01-30 21:00:00
+author:     "德鹏"
+header-img: "img/post-bg.png"
+catalog: true
+tags:
+    - 其它杂记
+---
+
+> “本文讲解如何在本机配置书写环境. ”

@@ -1,0 +1,63 @@
+---
+layout:     post
+title:      "如何使用github pages，1"
+subtitle:   " \"在Github上设立自己的博客\""
+date:       2018-01-30 21:00:00
+author:     "德鹏"
+header-img: "img/post-bg.png"
+catalog: true
+tags:
+    - 其它杂记
+---
+
+> “后面的博客就不再网易上更新了，决定全部倒入到github上去，主要以技术文章为主。. ”
+
+准备步骤：
+1. 申请个人域名
+2. 在Github上注册个人账号
+3. 将个人域名与Github pages绑定
+
+## 步骤1： 连接到github
+
+在连接到github之前，需要先在配置生成SSH KEY，github通过匹配SSH KEY进行连接。
+**a. 打开git bash，查看~/.ssh目录是否存在。** 如果不存在，则表示SSH从未使用。
+**b. 使用ssh-keygen命令，生成SSH KEY。**  
+示例：
+$ ssh-keygen -t rsa -C "madepeng@madepeng.com"
+此时会提示输入密码，此密码为更新git时所用，可以防止别人更新。设置后，则会生成ssh key文件。
+生成的SSH KEY文件位于~/.ssh/目录下，id_rsa.pub。
+**c. 在github上设置ssh key。** 登录github后，在右上角>账户设置>SSH and GPG keys界面中，新建一个ssh key，将上一步得到的id_rsa.pub文件内容粘贴到内容框中。
+**d. 在本机使用ssh测试与github的连接。**
+示例：
+ssh -T git@github.com
+此时提示输入密码，输入密码后，出现下面提示，则表示连接成功。
+Hi ma-depeng! You've successfully authenticated, but GitHub does not provide shell access.
+至此，本机已成功连接至github。
+**e. 创建本机的git更新名称和邮箱。** git为一个版本控制软件，因此使用用户名称和邮箱来区分更新。配置命令如下：
+$ git config --global user.name "madepeng"
+$ git config --global user.mail "madepeng@outlook.com"
+
+
+##步骤2：在git hub上设置自己的专属page
+登录git hub后，点击右上角的+号，增加一个repository，将其名称命令为ma-depeng.github.io。此时的xxx.github.io中的XXX必须与用户名相同，否则无法显示。设置好后，在此repository的首页面已经有提示，使用命令行在本机建立一个repository，然后再发布到github上去。
+echo "# madepeng.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ma-depeng/ma-depeng.github.io.git
+git push -u origin master
+
+注意，如果是在一个新建的目录中创建repository，则需要再将使用git --global 设置用户名和邮箱。否则执行到第四句时，会有提示。
+
+建议下载github desktop客户端进行更新，操作更方便。命令行容易忘记。使用github desktop时，需要先在本地commit更改，再点击右上push到线上工程。
+
+增加一个index.html后，则可以访问ma-depeng.github.io。
+
+##步骤3：将自己的域名解析到github page
+在个人域名管理中，添加以下两条A记录：
+192.30.252.153
+192.30.252.154
+添加一条CNAME，指向ma-depeng.github.io
+域名解析生效时间比较慢，可能长达一天，耐心等待。
+
+如何进行博客内容发布，放在另外一的篇日志中。

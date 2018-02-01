@@ -16,7 +16,11 @@ markdown将写作者的精力聚集在内容本身，其对多媒体如图片、
 
 ##Github Desktop
 ![][githubdesktop]
+不常用Git的人，没有必要浪费时间在记命令上，Github desktop图形界面操作简单，在本地设置仓库，编辑后同步到服务器即可，只需点击两次，设计很人性化。
 
+##Atom编辑器
+这个编辑器也是Github出品，将本地仓库文件夹设置为工程即可对工程进行操作，对于markdown支持较好，可以在编辑时显示格式，比Sublime要好用一些。
+Atom下载地址[https://atom.io/](https://atom.io/)
 
 
 [githubdesktop]:http://ma-depeng.github.io/img/post/2018-01-30-01-githubdesktop.png

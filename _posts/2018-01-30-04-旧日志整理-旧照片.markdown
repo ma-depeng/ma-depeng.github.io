@@ -66,6 +66,26 @@ tags:
 ![][old-photo-14]  
 
 
+**1987年与小姑**  
+![][old-photo-15]
+
+
+**2016年和女儿在巴拿马**  
+![][old-photo-16]
+
+
+**2016年在日本**  
+![][old-photo-17]
+
+
+**2016年在阿根廷**  
+![][old-photo-18]
+
+
+**2017年在智利**  
+![][old-photo-19] 
+
+
 
 [old-photo-1]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo01.jpg
 [old-photo-2]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo02.jpg
@@ -81,3 +101,9 @@ tags:
 [old-photo-12]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo12.jpg
 [old-photo-13]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo13.jpg
 [old-photo-14]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo14.jpg
+
+[old-photo-15]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo15.jpg
+[old-photo-16]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo16.jpg
+[old-photo-17]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo17.jpg
+[old-photo-18]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo18.jpg
+[old-photo-19]:http://ma-depeng.github.io/img/post/2018-01-30-03-old-photo19.jpg

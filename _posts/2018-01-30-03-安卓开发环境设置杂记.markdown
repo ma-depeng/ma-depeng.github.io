@@ -4,7 +4,7 @@ title:      "安卓开发环境设置杂记"
 subtitle:   " \"在开发环境设置过程中碰到的一些问题，本文用来记录\""
 date:       2018-01-30 21:00:00
 author:     "德鹏"
-header-img: "img/post-bg.png"
+header-img: "img/bg/post-bg-android.png"
 catalog: true
 tags:
     - 安卓开发

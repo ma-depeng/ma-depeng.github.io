@@ -4,7 +4,7 @@ title:      "2018年春节回家"
 subtitle:   " \"春节带老婆和小家伙回家\""
 date:       2018-02-04 00:30:00
 author:     "德鹏"
-header-img: "img/bg/post-bg.png"
+header-img: "img/bg/post-bg.jpg"
 catalog: true
 tags:
     - 老马的日常

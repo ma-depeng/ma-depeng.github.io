@@ -4,7 +4,7 @@ title:      "旧日志整理，旧照片"
 subtitle:   " \"很久以前的照片\""
 date:       2018-01-30 21:00:00
 author:     "德鹏"
-header-img: "img/bg/post-bg-oldmemory.png"
+header-img: "img/bg/post-bg-oldmemory.jpg"
 catalog: true
 tags:
     - 回忆

@@ -4,7 +4,7 @@ title:      "马小恬成长日志"
 subtitle:   " \"小宝的成长回忆\""
 date:       2018-01-30 21:00:00
 author:     "德鹏"
-header-img: "img/bg/post-bg-cute.png"
+header-img: "img/bg/post-bg-cute.jpg"
 catalog: true
 tags:
     - 回忆

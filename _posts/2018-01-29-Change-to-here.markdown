@@ -4,7 +4,7 @@ title:      "POST 样例"
 subtitle:   " \"markdown 语言模板\""
 date:       2018-01-30 21:00:00
 author:     "德鹏"
-header-img: "img/post-bg.png"
+header-img: "img/bg/post-bg.jpg"
 catalog: true
 tags:
     - 其它杂记

@@ -21,3 +21,9 @@ https://mp.weixin.qq.com/debug/wxadoc/dev/
 
 2.	标题栏在APP.json中设置，参考
 http://blog.csdn.net/michael_ouyang/article/details/55045300  
+
+3. 设置背景全屏时：  
+.container{
+ background-image: url("XXX.png");
+ background-size: 100% 100%;
+}

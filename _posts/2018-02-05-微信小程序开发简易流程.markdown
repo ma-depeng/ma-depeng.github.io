@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "微信小程序开发简易流程"
+subtitle:   " \"以前产品包括我自己做过一些基于网页的APP,准备转到微信小程序，这篇博客用来做简要流程记录\""
+date:       2018-02-05 22:30:00
+author:     "德鹏"
+header-img: "img/bg/post-bg.jpg"
+catalog: true
+tags:
+    - 程序开发
+
+---
+
+> “微信小程序开发简易流程”
+
+官方文档链接：  
+https://mp.weixin.qq.com/debug/wxadoc/dev/  
+
+# 补充杂记  （未整理）
+1.	小程序分为上面标题栏和下面主体两部分，下面主体如需要占100%高度时，在CSS中设置高度为100vh。  
+
+2.	标题栏在APP.json中设置，参考
+http://blog.csdn.net/michael_ouyang/article/details/55045300  

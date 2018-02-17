@@ -25,3 +25,24 @@ http://blog.csdn.net/michael_ouyang/article/details/55045300
 3. 设置背景全屏时：  
  background-size: 100% 100%;
 显示view横向并列显示时，display: inline;
+
+4. **使用自定义JS文件**
+一般会将经常使用的函数放到一个独立于页面的JS文件中，引入外部的JS文件需要三步。  
+  a. 新建一个文件，在文件中自定义函数，定义方法与网页中定义方法相同。  
+  b. 在此文件末尾将方法导出，导出多个函数时，使用逗号分开  
+  c. 在需要调用方法的页面中require这个JS文件  
+
+  示例，将一个toast方法改成常用的alert方法：  
+  a. 文件中   
+  function alert(text){  
+  wx.showToast({  title: text, icon: 'success', duration: 2000 });  
+  }  
+  b. 在文件末尾导出  
+  module.exports = {  
+  alert:alert  
+  }  
+  c. require此文件  
+  var common = require("../../dp_common.js");  
+
+  在调用处的写法  
+  common.alert("test ok");  

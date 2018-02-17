@@ -23,7 +23,5 @@ https://mp.weixin.qq.com/debug/wxadoc/dev/
 http://blog.csdn.net/michael_ouyang/article/details/55045300  
 
 3. 设置背景全屏时：  
-.container{
- background-image: url("XXX.png");
  background-size: 100% 100%;
-}
+显示view横向并列显示时，display: inline;

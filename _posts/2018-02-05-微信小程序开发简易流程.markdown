@@ -52,4 +52,4 @@ http://blog.csdn.net/michael_ouyang/article/details/55045300
   1. 在pages目录下新建这个页面，依样画葫芦，添加js/wxml/wxss文件  
   2. 在app.json中注册这个页面  
   3. 比如我新建的这个页面名为match，因此在match.js中，添加pages的定义，参考index.js  
-  4. 使用wx.navigateTo的方法跳转，在跳转时可以传递参数。
+  4. 使用wx.navigateTo的方法跳转，在跳转时可以传递参数。  

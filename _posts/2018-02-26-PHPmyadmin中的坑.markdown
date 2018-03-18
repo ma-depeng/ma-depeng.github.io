@@ -26,4 +26,8 @@ tags:
 
 5. 如果需要通过PHPMYADMIN来更改MYSQL密码，方法为，点击主页（左上角）-> 选择用户账户 -> 修改用户权限，输入新密码。注意不要点生成，生成按钮的意思为生成一个新密码。  
 
-6. 当MYSQL中的ROOT密码不为空时，参考更改xampp/phpmyadmin/config.inc.php中的密码来登录。特别注意，config.inc.php在安装后就存在，不要手工将config.default.php更改为config.inc.php（记得很早的版本才有这个操作，现在不需要）。
+6. 当MYSQL中的ROOT密码不为空时，参考更改xampp/phpmyadmin/config.inc.php中的密码来登录。特别注意，config.inc.php在安装后就存在，不要手工将config.default.php更改为config.inc.php（记得很早的版本才有这个操作，现在不需要）。  
+
+7. 显示MYSQL表结构的方法。可以使用PHPMYADMIN中的导出方法，但这个方法不好用。可以使用show create table 命令，如查看ABC表的创建语句，使用show create table abc即可。在生成的结果左上角点击选项，选择显示全部内容，即可以查看创建表的SQL语句。  
+
+    

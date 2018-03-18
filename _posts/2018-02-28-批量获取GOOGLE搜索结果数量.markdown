@@ -1,0 +1,20 @@
+---
+layout:     post
+title:      "批量获取GOOGLE搜索结果数量"
+subtitle:   " \"杂记\""
+date:       2018-02-28 06:00:00
+author:     "德鹏"
+header-img: "img/bg/post-bg.jpg"
+catalog: true
+tags:
+    - 程序开发
+
+---
+
+> “有点费心思，有更好的方法欢迎通过madepeng@outlook.com与我交流”
+
+最近在搞一个小的APP，其中需要了解大量关键词的GOOGLE搜索热度，总共的关键词有几万个，最开始通过后台PHP批量取GOOGLE搜索数据，但GOOLE检测到有批量抓取，直接禁了。至此我才抓了2000多个。  
+
+后台不行，换前台，使用iframe的办法引入google搜索结果，但GOOGLE会向浏览器发送“X-Frame-Options: SAMEORIGIN”，导致无法iframe。找了一圈，发现chrome有一个插件，名叫Ignore X-Frame headers，安装这个插件后，解决了不让iframe的问题。
+
+如果只使用JS，无法对不同域的iframe中的内容进行解析，想了几个办法，发现都无法批量解决，经过反复尝试，发现如果通过PHP file_get_content 大批量取，会直接被拒绝，但如果通过前端再加上一个临时时间间隔取，一直工作正常。同时做了一个手工收集和自动收集，看了一下，一天可以收集45K的关键字结果，还是可以。  

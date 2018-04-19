@@ -1,0 +1,22 @@
+---
+layout:     post
+title:      "家有小女"
+subtitle:   " \"杂记\""
+date:       2018-04-18
+author:     "德鹏"
+header-img: "img/bg/post-bg.jpg"
+catalog: true
+tags:
+    - 杂记
+
+---
+
+> “nothing”
+
+![][tian001]  
+![][tian002]  
+![][tian003]  
+
+[tian001]:http://ma-depeng.github.io/img/2018/2018-4-18-1.jpg
+[tian002]:http://ma-depeng.github.io/img/2018/2018-4-18-2.jpg
+[tian003]:http://ma-depeng.github.io/img/2018/2018-4-18-3.jpg
